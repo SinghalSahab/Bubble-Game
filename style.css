@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #cae9ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#panel{
+    width: 80%;
+    height: 80%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#panel-top{
+    width: 100%;
+    height: 100px;
+    background-color: #208c8c;
+    padding: 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+}
+.elem{
+    width: 10%;
+    display: flex;
+    gap: 10%;
+}
+.elem h2{
+    padding: 10px 0;
+}
+#new-game{
+    font-size: 20px;
+    padding: 0 20px;
+    border-radius: 10px;
+    border-color:transparent;
+
+}
+.box{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #273b40;
+}
+
+#panel-bottom{
+    width: 100%;
+    height: calc(100%-100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color: #208c8c;
+    margin:3.8px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.bubble:hover{
+    background-color: #1b7f7f;
+    cursor: pointer;
+}
